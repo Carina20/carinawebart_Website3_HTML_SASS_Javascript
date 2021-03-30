@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8" author="Carina" content= "Website 3 Car insurance calculator">
+	<title>Website#3 Car Insurance calculator</title>
+		<link rel="stylesheet" type="text/css" href="style_CodeReview3.css">
+</head>
+<body>
+<header>
+	<div id=header_images>
+		<div>
+				<img id="img_logo_insuranceCF" src="img/logo.png" alt="Code Factory insurance">
+		</div>
+		<div>
+				<img id="img_FSWD" src="img/banner.png" alt ="Full Stack Web Development course in Vienna">
+		</div>
+	</div>
+<nav>
+	<ul>
+		<li><a href ="index_CR3.html"> Home </a></li>
+		<li><a href="Team_CodeReview3.html"> Team </a></li>
+		<li id="Back"><a href="https://www.carinaweb.art/" class="navbarlinks"> Back to carinaweb.art </a></li>
+	</ul>
+</nav>
+
+</header>
+<main>
+
+<h1> Car insurance </h1> <div id="div_FormulaButton"><button type="button" id="FormulaButton" onclick="alert('Austria: Horse_power x 100 / age + 50\nHungary: Horse_power x 120 / age  + 100\nGreece: Horse_power x 150 / (age+3)  + 50');">Click here to see all formulas</button></div>
+
+<div id="container1">
+	<div>
+		<h2> Great coverage begins <br> with a custom quote </h2>
+	</div>
+	<form>
+		<input type="text" id="name" placeholder="Your name:"> <input type="text" id="age" placeholder="Age:"> <br>
+		<br>
+		<select id="Country">
+			<option value="Austria">Austria</option>
+			<option value="Hungary">Hungary</option>
+			<option value="Greece">Greece</option>
+		</select>
+		<input type="text" id="horsepower_car" placeholder="Horsepower of your car:">
+	</form>
+	<div>
+		<br>
+		<button type="submit" onclick="calculateInsurance()">Calculate</button>
+		<br>
+		<br>
+	</div>
+	<div>
+		<p id="Result">
+		</p>
+	</div>
+
+	<p id="bottom_section">
+		<br>
+		<br>
+	</p>
+
+</div>
+
+
+<div id="container2">
+
+<br>
+<br>
+	<h3 id="h_uncomplicated" >Un-complicating car-coverage </h3>
+	<p id="p_uncomplicated">Understanding your covering options shouldn't be so hard.<br>
+	We'll guide you through available coverage types,<br>
+	starting with who and what is covered.</p>
+
+</div>
+
+
+</main>
+
+<div id="TwoBoxes">
+
+	<div class="box">
+		<div>
+			<h3>What comes standard</h3>
+			<p>The coverage you need</p>
+		</div>
+		<div>
+			<ul>
+				<li>&#x2713; Bodily Injury Liability</li><br>
+				<li>&#x2713; Property Damage</li><br>
+				<li>&#x2713; Medical Payments</li>
+			</ul>
+		</div>
+		<div>
+			<h4>Benefits</h4>
+			<p>12-month rate guarantee | <br>
+				24/7 customer service | <br>
+				Lifetime Repair Guarantee
+			</p>
+		</div>
+
+
+	</div>
+
+	<div class="box">
+		<div>
+			<h3>Add-on protection & coverage</h3>
+			<p>For more peace of mind</p>
+		</div>
+		<div>
+			<ul>
+				<li>&#x2713; Better Car Replacement</li><br>
+				<li>&#x2713; Towing & Labor</li><br>
+				<li>&#x2713; Rental Car Coverage</li>
+			</ul>
+		</div>
+		<div>
+			<h4>Earned Benefits</h4>
+			<p>Accident Forgiveness | New Car <br> 
+				Replacement
+			</p>
+		</div>
+	</div>
+
+</div>
+
+<footer>
+	<div>
+		<ul>
+			<li><a href ="index_CodeReview3.html"> Home </a></li>
+			<li><a href="Team_CodeReview3.html"> Team </a></li>
+		</ul>
+	</div>
+
+	<div id="footer_logo">
+		<img id="img_logo_insuranceCF" src="img/logo-inv.png" alt="Code Factory insurance">
+	</div>
+
+	<div>
+		<p> Carina - Code Factory </p>
+	</div>
+
+</footer>
+<script type="text/javascript" src="script_CodeReview3.js"></script>
+</body>
+</html>
